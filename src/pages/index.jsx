@@ -1,9 +1,9 @@
-import React from "react";
 import {
   createTheme,
   ThemeProvider,
   responsiveFontSizes,
 } from "@material-ui/core/styles";
+import React from "react";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import HeroSection from "../components/HeroSection";
 import Header from "../components/Header";
