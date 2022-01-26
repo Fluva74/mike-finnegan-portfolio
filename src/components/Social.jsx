@@ -1,5 +1,5 @@
 import React from "react";
-import GithubIcon from "@material-ui/icons/Github";
+import GitHubIcon from "@material-ui/icons/GitHub";
 import TwitterIcon from "@material-ui/icons/Twitter";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import Grid from "@material-ui/core/Grid";
@@ -14,7 +14,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const socialItems = [
-  { icon: GithubIcon, url: "https://github.com/Fluva74", name: "github" },
+  { icon: GitHubIcon, url: "https://github.com/Fluva74", name: "github" },
   { icon: TwitterIcon, url: "https://twitter.com/MikeFin54739502", name: "twitter" },
   { icon: LinkedInIcon, url: "https://www.linkedin.com/in/mike-finnegan-596a96225/", name: "linkedin" },
 ];
