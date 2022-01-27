@@ -24,17 +24,27 @@ const useStyles = makeStyles((theme) => ({
   },
   card: {
     display: "flex",
-    justifyContent: "spaceBetween",
+    justifyContent: "center",
         height: 300,
   },
   cardContent: {
+    alignSelf: "center",
     flex: 5,
+  },
+  cardTitle: {
+    fontSize: "1.8rem",
+    fontWeight: "600",
   },
   icon: {
     color:  "#ffbf00",
 },
   links: {
+    display: "flex",
     marginRight: "auto",
+  },
+  notice: {
+    fontSize: ".7em",
+    color: "#8E846F",
   },
   tag: {
     color: "#838382",
@@ -59,14 +69,14 @@ function TagsContainer({ tags }) {
   );
 }
 
-function Project({ title, description, imageUrl, tags, links }) {
+function Project({ title, description, imageUrl, tags, links, notice, }) {
   const styles = useStyles();
   return (
     <Grid item>
       <div>
       <Card className={styles.card}>
           <CardContent className={styles.cardContent}>
-            <Typography variant="h5" paragraph>
+            <Typography className={styles.cardTitle} paragraph>
               {title}
             </Typography>
             <Typography variant="subtitle1" paragraph>
@@ -83,11 +93,16 @@ function Project({ title, description, imageUrl, tags, links }) {
 </div>
           <CardActions>
             <div className={styles.links}>
-              {links.map((linkItem) => (
-                <IconButton href={linkItem.href} key={linkItem.href}>
-                  <linkItem.icon className={styles.icon}/>
-                </IconButton>
-              ))}
+          {links.map((linkItem) => (
+            <IconButton href={linkItem.href} key={linkItem.href}>
+              <linkItem.icon className={styles.icon} />
+            </IconButton>
+          ))}
+          </div>
+            <div>
+          <Typography className={styles.notice} variant="h7" paragraph>
+              {notice}
+              </Typography>
             </div>
             <Hidden smDown>
               <TagsContainer tags={tags} />
@@ -121,6 +136,7 @@ const projectsData = [
       imageUrl: "https://static3.srcdn.com/wordpress/wp-content/uploads/2021/06/the-big-lebowski-the-stranger-real-imaginary-narrator.jpg?q=50&fit=crop&w=960&h=500&dpr=1.5",
       imageAlt: "Project 1 Image.",
       tags: ["Node.js", "MongoDB", "Rest API"],
+      notice: "This app was deployed on Heroku. Please allow up to 30 seconds on initial load time.",
       links: [
           {
               icon: GitHubIcon,
@@ -130,7 +146,8 @@ const projectsData = [
               icon: OpenInNewIcon,
               href: "https://lebowski-quote-generator.herokuapp.com",
           },
-      ],
+    ],
+      
   },
   {
       title: "dinner?",
