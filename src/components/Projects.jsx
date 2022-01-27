@@ -158,11 +158,11 @@ const projectsData = [
       links: [
           {
               icon: GitHubIcon,
-              href: "https://github.com/Fluva74/recipe-app",
+              href: "https://github.com/Fluva74/react-recipe",
           },
           { 
               icon: OpenInNewIcon,
-              href: "https://www.google.com",
+              href: "https://dinner-recipe-app.herokuapp.com/",
           },
       ],
   },
