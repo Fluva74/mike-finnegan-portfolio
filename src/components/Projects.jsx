@@ -152,9 +152,10 @@ const projectsData = [
   {
       title: "dinner?",
       description: "A recipe app with search option.",
-      imageUrl: "https://images.unsplash.com/photo-1576866206061-0ea8ec25fbdb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGJ1ZmZldHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+      imageUrl: "https://i.ibb.co/S0wWdH8/Screenshot-2022-01-27-at-15-36-35-React-App.png",
       imageAlt: "Project 2 Image.",
-      tags: ["React.js", "Rest API", "Node.js"],
+    tags: ["React.js", "Rest API", "Node.js"],
+    notice: "This app was deployed on Heroku. Please allow up to 30 seconds on initial load time.",
       links: [
           {
               icon: GitHubIcon,
@@ -167,19 +168,19 @@ const projectsData = [
       ],
   },
   {
-      title: "Personal Blog",
-      description: "A Blog Created With MERN Stack.",
-      imageUrl: "https://www.telekom.com/resource/image/530616/landscape_ratio2x1/3000/1500/c3e6730fcd3f9223420a2ab53db0ede4/po/bi-blogschmuckbild-en.jpg",
+      title: "Personal Portfolio",
+      description: "A portfolio created with Gatsby and Material UI.",
+      imageUrl: "https://i.ibb.co/qj191Bc/Screenshot-2022-01-28-at-11-03-02-https-mikefinneganportfolio-gatsbyjs-io.png",
       imageAlt: "Project 3 Image.",
-      tags: ["React.js", "MongoDB", "Express.js", "Node.js"],
+      tags: ["Gatsby", "Material-UI", "React.js"],
       links: [
           {
               icon: GitHubIcon,
-              href: "https://github.com/Fluva74/mernblog",
+              href: "https://github.com/Fluva74/mike-finnegan-portfolio",
           },
           { 
               icon: OpenInNewIcon,
-              href: "https://www.google.com",
+              href: "https://mikefinneganportfolio.gatsbyjs.io/",
           },
       ],
   },
