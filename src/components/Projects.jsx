@@ -135,7 +135,7 @@ const projectsData = [
       description: "Random quotes from the movie 'The Big Lebowski'.",
       imageUrl: "https://static3.srcdn.com/wordpress/wp-content/uploads/2021/06/the-big-lebowski-the-stranger-real-imaginary-narrator.jpg?q=50&fit=crop&w=960&h=500&dpr=1.5",
       imageAlt: "Project 1 Image.",
-      tags: ["Node.js", "MongoDB", "Rest API"],
+      tags: ["React", "Node.js", "MongoDB", "Rest API"],
       notice: "This app was deployed on Heroku. Please allow up to 30 seconds on initial load time.",
       links: [
           {
