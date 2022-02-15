@@ -17,7 +17,7 @@ import ListItem from "@material-ui/core/ListItem";
 const navigationLinks = [
   { name: "About", href: "#about" },
   { name: "Projects", href: "#projects" },
-  { name: "Resume", href: "https://online.flippingbook.com/view/854316167/" },
+  { name: "Resume", href: "https://pdfhost.io/v/4IwL6ao2._Resume_Mike_Finnegan" },
 ];
 
 const useStyles = makeStyles((theme) => ({
