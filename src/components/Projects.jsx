@@ -149,11 +149,29 @@ const projectsData = [
     ],
       
   },
+    {
+      title: "Margarita Mockup",
+      description: "Mockup site about margaritas",
+      imageUrl: "https://i.ibb.co/R7S3z2C/Screenshot-2022-02-18-at-12-48-00-Margaritas.png",
+      imageAlt: "Project 2 Image.",
+      tags: ["React"],
+      links: [
+          {
+              icon: GitHubIcon,
+              href: "https://github.com/Fluva74/building1",
+          },
+          { 
+              icon: OpenInNewIcon,
+              href: "https://margaritatales.netlify.app/",
+          },
+    ],
+      
+  },
   {
       title: "dinner?",
       description: "A recipe app with search option.",
       imageUrl: "https://i.ibb.co/S0wWdH8/Screenshot-2022-01-27-at-15-36-35-React-App.png",
-      imageAlt: "Project 2 Image.",
+      imageAlt: "Project 3 Image.",
     tags: ["React.js", "Rest API", "Node.js"],
     notice: "This app was deployed on Heroku. Please allow up to 30 seconds on initial load time.",
       links: [
@@ -171,7 +189,7 @@ const projectsData = [
       title: "Personal Portfolio",
       description: "A portfolio created with Gatsby and Material UI.",
       imageUrl: "https://i.ibb.co/qj191Bc/Screenshot-2022-01-28-at-11-03-02-https-mikefinneganportfolio-gatsbyjs-io.png",
-      imageAlt: "Project 3 Image.",
+      imageAlt: "Project 4 Image.",
       tags: ["Gatsby", "Material-UI", "React.js"],
       links: [
           {
