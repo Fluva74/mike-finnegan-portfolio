@@ -138,8 +138,8 @@ const projectsData = [
     tags: ["WordPress"],
     links: [
       {
-        icon: WordPressIcon,
        
+        href: "https://github.com/Fluva74",
       },
       {
         icon: OpenInNewIcon,
