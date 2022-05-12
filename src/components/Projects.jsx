@@ -132,14 +132,14 @@ export default function Projects() {
 const projectsData = [
   {
     title: "Goodman Wexler Law Firm",
-    description: "Wordpress site for fictional law firm'.",
+    description: "Wordpress site for fictional law firm.",
     imageUrl: "https://static1.moviewebimages.com/wordpress/wp-content/uploads/article/MafpCmhagyL7SCZn0l5vyI1ngBCUkG.jpg?q=50&fit=contain&w=767&h=405&dpr=1.5",
     imageAlt: "Project 1 Image.",
     tags: ["WordPress"],
     links: [
       {
-        icon: GitHubIcon,
-        href: "https://github.com/Fluva74",
+        icon: WordPressIcon,
+       
       },
       {
         icon: OpenInNewIcon,
