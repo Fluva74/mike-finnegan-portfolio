@@ -131,21 +131,20 @@ export default function Projects() {
 
 const projectsData = [
   {
-    title: "Big Lebowski Quote Generator",
-    description: "Random quotes from the movie 'The Big Lebowski'.",
-    imageUrl: "https://static3.srcdn.com/wordpress/wp-content/uploads/2021/06/the-big-lebowski-the-stranger-real-imaginary-narrator.jpg?q=50&fit=crop&w=960&h=500&dpr=1.5",
+    title: "Goodman Wexler Law Firm",
+    description: "Wordpress site for fictional law firm'.",
+    imageUrl: "https://static1.moviewebimages.com/wordpress/wp-content/uploads/article/MafpCmhagyL7SCZn0l5vyI1ngBCUkG.jpg?q=50&fit=contain&w=767&h=405&dpr=1.5",
     imageAlt: "Project 1 Image.",
-    tags: ["React", "Node.js", "MongoDB", "Rest API"],
-    notice: "This app was deployed on Heroku. Please allow up to 30 seconds on initial load time.",
+    tags: ["WordPress"],
     links: [
       {
         icon: GitHubIcon,
-        href: "https://github.com/Fluva74/api_project",
+        href: "https://github.com/Fluva74",
       },
       {
         icon: OpenInNewIcon,
-        href: "https://lebowski-quote-generator.herokuapp.com",
-        target: blank,
+        href: "http://goodman-wexler.great-site.net/",
+        
       },
     ],
 
